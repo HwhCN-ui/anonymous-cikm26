@@ -1,0 +1,15 @@
+strap = {
+    "enabled": True,
+    "probe_data_path": "./datasets/data_cache/tiny_imagenet_val.json",  
+    "batch_size": 64,
+    "cce_max_batches": 8,
+    "cce_z0": 0.9,
+    "cce_gamma": 3.0,
+    "cce_trust_beta": 0.85,
+    "conv_patience": 4,
+    "cgp_max_alpha": 10.0,
+    "val_max_batches": 6,
+    "p_candidate_ratio": 0.20,
+    "phi": 0.7,
+    "top_ratio": 0.08,
+}
