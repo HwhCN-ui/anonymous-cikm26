@@ -1,6 +1,6 @@
 strap = {
     "enabled": True,
-    "probe_data_path": "./datasets/data_cache/tiny_imagenet_val.json",  
+    "probe_data_path":,  
     "batch_size": 64,
     "cce_max_batches": 8,
     "cce_z0": 0.9,
